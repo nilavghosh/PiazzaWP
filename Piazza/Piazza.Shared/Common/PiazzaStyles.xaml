@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:Piazza.Common"
+    xmlns:local="using:Piazza.Common">
+    <vm:ViewModelLocator x:Key="ViewModelLocator" />
+    <x:Int32 x:Key="HubHeaderCharacterSpacing">-22</x:Int32>
+    <x:Double x:Key="HubHeaderFontSize">78</x:Double>
+    <FontFamily x:Key="PhoneFontFamilyNormal">Segoe WP</FontFamily>
+    <Thickness x:Key="HubHeaderMarginThickness">15,1,0,0</Thickness>
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Light">
+            <Color x:Key="PhoneForegroundColor">#FF3e7aab</Color>
+            <SolidColorBrush x:Key="PhoneForegroundBrush" Color="#FF3e7aab"/>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
